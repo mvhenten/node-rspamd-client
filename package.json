@@ -1,0 +1,34 @@
+{
+  "name": "rspamd-client",
+  "version": "0.0.1",
+  "description": "A node.js client to the rspamd http interface",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "nock": "^9.1.0",
+    "tape": "^4.8.0"
+  },
+  "scripts": {
+    "test": "node index_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvhenten/node-rspamd-client.git"
+  },
+  "keywords": [
+    "spam",
+    "rspamd",
+    "ham",
+    "spamcheck",
+    "spammer"
+  ],
+  "author": "Matthijs van Henten",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mvhenten/node-rspamd-client/issues"
+  },
+  "homepage": "https://github.com/mvhenten/node-rspamd-client#readme"
+}
