@@ -1,6 +1,6 @@
 {
   "name": "rspamd-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A node.js client to the rspamd http interface",
   "main": "index.js",
   "directories": {
