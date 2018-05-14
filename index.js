@@ -32,6 +32,8 @@ const request = (options, source, done) => {
             done(null, parseResult(collect), collect);
         });
     });
+
+    source.on('error', (err) => done(err));
     req.on('error', (err) => done(err));
     source.pipe(req);
 };
